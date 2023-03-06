@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivStepIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="5dp"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/tvStepText"
+        app:layout_constraintStart_toStartOf="@+id/tvStepText"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStepText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:gravity="center|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivStepIcon"
+        tools:text="Lorem" />
+
+    <View
+        android:id="@+id/viewLineStart"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginRight="4dp"
+        android:background="#BDBDBD"
+        app:layout_constraintBottom_toBottomOf="@+id/ivStepIcon"
+        app:layout_constraintEnd_toStartOf="@+id/ivStepIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivStepIcon" />
+
+    <View
+        android:id="@+id/viewLineEnd"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:background="#BDBDBD"
+        app:layout_constraintBottom_toBottomOf="@+id/ivStepIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivStepIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivStepIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
