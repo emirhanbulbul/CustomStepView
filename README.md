@@ -1,12 +1,12 @@
-# CustomStepView
+# Custom Step View
 
+In this project, I created a step view by inheriting from the Recyler View. There are 3 situations in Step View. 
+1- Completed
+2- Continuing
+3- It will be Completed
 
-Bu projede Recyler View'den kalıtım alarak step view oluşturdum. Step View'de 3 durum bulunmaktadır. 
-1- Tamamlandı
-2- Devam Ediyor
-3- Tamamlanacak
+An example usage is found in the MainActivity file.
 
-Örnek kullanım MainActiviy kısmında bulunmaktadır. 
-
+# 📽 Video
 https://user-images.githubusercontent.com/14194362/223144598-1116e5dd-21e6-4123-84ec-82f191ddcca4.mp4
 
